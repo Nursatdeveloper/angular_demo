@@ -16,8 +16,8 @@ import { AuthModule, LogLevel } from 'angular-auth-oidc-client';
     AuthModule.forRoot({
       config: {
         authority: 'https://demo-auth.kezekte.kz',
-        redirectUrl: 'https://demo-cabinet2.kezekte.kz/ru/c-overview/dashboard',
-        postLogoutRedirectUri: 'https://kezekte.kz',
+        redirectUrl: 'https://boro.kz',
+        postLogoutRedirectUri: 'https://boro.kz',
         clientId: 'QarjigerApiClient',
         scope: 'openid profile offline_access QarjigerApi',
         responseType: 'code',
